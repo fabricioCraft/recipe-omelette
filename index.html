@@ -137,10 +137,24 @@
         color: hsl(14, 45%, 36%);
     }
 
-    #value{
+    #value1{
         color: hsl(14, 45%, 36%);
         font-weight: bold;
-        
+    }
+
+    #value2{
+        color: hsl(14, 45%, 36%);
+        font-weight: bold;
+    }
+
+    #value3{
+        color: hsl(14, 45%, 36%);
+        font-weight: bold;
+    }
+
+    #value4{
+        color: hsl(14, 45%, 36%);
+        font-weight: bold;
     }
 
     table{
@@ -162,17 +176,18 @@
 <body>
 
 
+
 <div class="recipe-container">
     <div class="recipe">
-        <img src="assets\images\image-omelette.jpeg" width="1480px">
-        <div id="recipe-title"><h1>Simple Omelette Recipe</h1></div>
+        <img alt="Foto ilustrativa de Omelete no prato" src="assets/images/image-omelette.jpeg" width="1480px">
+        <div id="recipe-title" role="banner"><h1>Simple Omelette Recipe</h1></div>
         <p>An easy and quick dish, perfec for any meal. This classic omelette
         combines beaten eggs cookede to perfection, optionally filled with your choice of cheese,
         vegetables, or meats.  
         </p>
-
+        <main role="main">
         <div id="quadrado">
-        <h3 id="preparation-time-title">Preparation time</h3>
+        <h2 id="preparation-time-title">Preparation time</h2>
         <div id="preparation-time">
         <p> <ul>
         <li><strong>Total:</strong> Approximately 10 minutes</li>
@@ -214,26 +229,26 @@
 
         <tr>
             <td>Calories</td>
-            <td><span id="value">277 Kcal</span></td>
+            <td><span id="value1">277 Kcal</span></td>
         </tr>
         <tr>
             <td>Carbs</td>
-            <td><span id="value">0g</span></td>
+            <td><span id="value2">0g</span></td>
         </tr>
         <tr>
             <td>Protein</td>
-            <td><span id="value">20g</span></td>
+            <td><span id="value3">20g</span></td>
         </tr>
         <tr>
             <td>Fat</td>
-            <td><span id="value">22g</span></td>
+            <td><span id="value4">22g</span></td>
         </tr>
 
         </table>
     </div>
 </div> 
   
-<div class="attribution">
+<div class="attribution" role="contentinfo">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Fabrício Silva</a>.
   </div>
